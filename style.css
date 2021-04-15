@@ -774,20 +774,32 @@ h4 {
     background-color: #F3976C;
 }
 
+.tc-black{
+    color:#000 !important;
+    font-size: 40px;
+}
+
 .tc-white {
-    color: #000 !important;
+    color: #FFF !important;
 }
+
 .form-group{
-    margin-bottom: 14px;
+    margin-bottom: 22px;
 }
+
+.ms{
+    margin-left: 22px;
+}
+
 .btn-lg{
     background: #F3976C !important;
     color: #000 !important;
+    font-size: 16px !important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #000 !important;
 }
 
 .ltc-white {
