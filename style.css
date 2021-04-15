@@ -777,10 +777,12 @@ h4 {
 .tc-white {
     color: #000 !important;
 }
-
-.btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+.form-group{
+    margin-bottom: 14px;
+}
+.btn-lg{
+    background: #F3976C !important;
+    color: #000 !important;
 }
 
 .btn-atomic-tangerine:hover {
