@@ -74,7 +74,6 @@ dfn {
 
 h1 {
     margin: .67em 0;
-    font-size: 2em
 }
 
 mark {
@@ -1860,7 +1859,7 @@ blockquote {
     padding: 10px 20px;
     margin: 0 0 20px;
     font-size: 17.5px;
-    border-left: 5px solid #eee
+    border-left: 5px solid #c1c1c1;
 }
 
 blockquote ol:last-child,
@@ -2007,12 +2006,11 @@ pre code {
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
-    margin-left: auto
+    margin-left: auto;
 }
 
 .row {
-    margin-right: -15px;
-    margin-left: -15px
+    margin-bottom: 24px;
 }
 
 .col-lg-1,

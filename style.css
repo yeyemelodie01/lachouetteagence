@@ -195,7 +195,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0, .73);
 }
 
 .d-bloc .panel button:hover,
@@ -723,7 +723,10 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #000000 !important;
+}
+.fs{
+    font-size: 24px;
 }
 
 h4 {
