@@ -353,7 +353,7 @@ header{
 
 .nav-flex{
     display: flex;
-    width: 150px;
+    width: 200px;
     justify-content: space-between;
 }
 
@@ -710,7 +710,7 @@ a {
 }
 
 p {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -1145,6 +1145,31 @@ footer li{
     .bloc-mob-center-text {
         text-align: center;
     }
+    .row-content{
+        padding-bottom: 50px;
+    }
+    .portfolio-thumb{
+        width: 100%;
+        height: 180px;
+    }
+    .social{
+        display: flex;
+        justify-content: space-between;
+    }
+    .row-flex{
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .float{
+        margin-bottom: 40px;
+    }
+
+    .d-flex{
+        width: 425px;
+        padding: 40px 14px;
+    }
+    .row-bottom
 }
 
 @media screen and (min-width:576px){
