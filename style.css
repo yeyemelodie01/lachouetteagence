@@ -710,7 +710,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -767,6 +767,7 @@ h1 {
 }
 .fs{
     font-size: 24px;
+    margin-bottom: 30px;
 }
 
 h4 {
@@ -803,6 +804,9 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    width: 270px;
+    height: 163px;
+    object-fit: cover;
 }
 
 .portfolio-row {
@@ -846,6 +850,17 @@ h4 {
 
 .form-group{
     margin-bottom: 22px;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+.row-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-padding{
+    padding-top: 75px;
 }
 
 .float{
@@ -860,10 +875,15 @@ h4 {
     margin-left: 22px;
 }
 
+.row-width{
+    width: 353px;
+}
+
 .btn-lg{
     background: #F3976C !important;
     color: #000 !important;
     font-size: 16px !important;
+    width: 139px;
 }
 
 .btn-atomic-tangerine:hover {

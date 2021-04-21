@@ -3087,7 +3087,8 @@ legend {
 label {
     display: inline-block;
     max-width: 100%;
-    font-weight: 700
+    font-weight: 700;
+    font-size: 16px;
 }
 
 input[type=search] {
@@ -3620,8 +3621,7 @@ textarea.input-lg {
 }
 
 .form-horizontal .form-group {
-    margin-right: -15px;
-    margin-left: -15px
+
 }
 
 @media (min-width:768px) {
