@@ -11,11 +11,20 @@ a,
 button {
     transition: all .3s ease-in-out;
     outline: none!important;
+    text-decoration: none;
 }
 
 a:hover {
     text-decoration: none;
     cursor: pointer;
+}
+
+a:focus{
+    color: #985f0d;
+}
+
+ul{
+    list-style: none;
 }
 
 header{
@@ -29,7 +38,7 @@ header{
     bottom: 0;
     width: 100%;
     z-index: 100000;
-    background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
+    background: #FFFFFF;
 }
 
 .bloc {
@@ -138,7 +147,7 @@ header{
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: #000;
 }
 
 .d-bloc .a-btn:hover,
@@ -295,7 +304,6 @@ header{
 .navbar {
     margin-bottom: 0;
     z-index: 1;
-    width: 201px;
 }
 
 .navbar-brand {
@@ -343,9 +351,24 @@ header{
     background: transparent;
 }
 
+.nav-flex{
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+}
+
+.nav-flex a{
+    padding: 15px 15px;
+    font-size: 21px;
+}
+
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+}
 .navbar-toggle {
     margin: 10px 10px 0 0;
-    border: 0px;
+    border: 0;
 }
 
 .navbar-toggle:hover {
@@ -367,6 +390,12 @@ header{
     position: relative;
     z-index: 2;
 }
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
 
 @media (min-width: 768px) {
     .site-navigation {
@@ -400,7 +429,7 @@ header{
         position: relative;
         width: 100%;
         right: 0;
-        margin-right: 0px;
+        margin-right: 0;
         margin-top: 20px;
     }
     .nav-center.mini-nav .navbar-toggle {
@@ -433,10 +462,8 @@ nav .caret {
 }
 
 .dropdown-menu .dropdown span {
-    border: 4px solid black;
-    border-top-color: transparent;
-    border-right-color: transparent;
-    border-bottom-color: transparent;
+    border: 4px solid transparent;
+    border-left-color: black;
     margin: 6px -5px 0 0!important;
     float: right;
 }
@@ -482,7 +509,7 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 26px!important;
 }
 
 .icon-lg {
@@ -705,6 +732,13 @@ p {
     font-weight: 700;
 }
 
+.mb{
+ margin-bottom: 0 !important;
+}
+
+.bold{
+    font-weight: bold;
+}
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
@@ -725,7 +759,7 @@ h3 {
 .med-width-whitespace {
     max-width: 800px;
     margin: auto auto auto auto;
-    box-shadow: 0px 0px 0px #000000;
+    box-shadow: 0 0 0 #000000;
 }
 
 h1 {
@@ -744,8 +778,27 @@ h4 {
     margin-top: 24px;
 }
 
+.paddtop{
+    padding-top: 50px;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: center;
+    width: 1070px;
+}
+
+.d-initial{
+    display: inherit;
+}
+
+.marg{
+    margin:0;
+}
+
 .white {
     color: #000!important;
+    font-size: 16px;
 }
 
 .portfolio-thumb {
@@ -758,7 +811,7 @@ h4 {
 }
 
 .avatar {
-    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 9px rgba(0, 0, 0, 0.3);
 }
 
 .black-background {
@@ -774,25 +827,33 @@ h4 {
     background-color: #FFFFFF;
 }
 
-.bgc-dark-slate-blue {
-    background-color: #364577;
+.tc-black{
+    color:#000 !important;
+    font-size: 40px;
 }
 
 .bgc-atomic-tangerine {
     background-color: #F3976C;
 }
 
-.tc-black{
-    color:#000 !important;
-    font-size: 40px;
+.tc-white{
+    color: #FFF !important;
 }
 
-.tc-white {
-    color: #000 !important;
+.black{
+    color: #000;
 }
 
 .form-group{
     margin-bottom: 22px;
+}
+
+.float{
+    float: left;
+}
+
+.row-size{
+    font-size: 19px;
 }
 
 .ms{
@@ -832,19 +893,19 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("asset/dots-bg.png");
+    background-image: url("img/dots-bg.png");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("asset/lines-h2-bg.png");
+    background-image: url("img/lines-h2-bg.png");
 }
 
 .bg-banniere {
-    background-image: url("asset/la-chouette-agence-banniere.jpg");
+    background-image: url("img/la-chouette-agence-banniere.jpg");
 }
 
 .bg-presentation {
-    background-image: url("asset/image-de-presentation.jpg");
+    background-image: url("img/image-de-presentation.jpg");
 }
 footer li{
     list-style: none;
@@ -907,9 +968,7 @@ footer li{
     }
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
-        padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        padding: 0 constant(safe-area-inset-right) 0 constant(safe-area-inset-left);
     }
 }
 
@@ -961,10 +1020,8 @@ footer li{
     .dropdown .dropdown a .caret {
         float: none;
         margin: 5px 0 0 10px!important;
-        border: 4px solid black;
-        border-bottom-color: transparent;
-        border-right-color: transparent;
-        border-left-color: transparent;
+        border: 4px solid transparent;
+        border-top-color: black;
     }
     #hero-bloc .navbar .nav {
         background: rgba(0, 0, 0, .8);
@@ -1033,6 +1090,8 @@ footer li{
     }
     .voffset-lg {
         margin-top: 30px;
+        display: flex;
+        flex-direction: column;
     }
     form {
         padding: 5px;
@@ -1050,6 +1109,9 @@ footer li{
         width: 180px;
         height: 320px;
     }
+    .justify-content-around{
+        flex-direction: column !important;
+    }
 }
 
 @media (max-width: 400px) {
@@ -1062,5 +1124,13 @@ footer li{
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+}
+
+@media screen and (min-width:576px){
+    .voffset-lg {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
     }
 }
