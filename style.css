@@ -877,6 +877,7 @@ h4 {
 
 .row-width{
     width: 353px;
+    padding: 0 5px;
 }
 
 .btn-lg{
@@ -1163,13 +1164,16 @@ footer li{
 
     .float{
         margin-bottom: 40px;
+        margin-right: 18px;
     }
 
     .d-flex{
         width: 425px;
         padding: 40px 14px;
     }
-    .row-bottom
+    .row-bottom{
+        margin-bottom: 28px;
+    }
 }
 
 @media screen and (min-width:576px){
