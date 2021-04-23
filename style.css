@@ -22,7 +22,8 @@ a:hover {
 }
 
 a:focus{
-    color: #985f0d;
+    color: #23527c;
+    border: 1px solid;
 }
 
 ul{
@@ -365,6 +366,10 @@ header{
 .nav-flex a{
     padding: 15px 15px;
     font-size: 21px;
+}
+
+.nav-flex a:focus{
+    color: #5cb85c;
 }
 
 .nav-content{
@@ -919,6 +924,7 @@ h4 {
 
 .bg-dots-bg {
     background-image: url("img/dots-bg.png");
+    background-color: #000;
 }
 
 .bg-lines-h2-bg {

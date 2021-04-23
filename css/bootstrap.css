@@ -3688,7 +3688,6 @@ textarea.input-lg {
 .btn:hover {
     color: #333;
     text-decoration: none;
-    outline: 3px solid aquamarine !important;
 }
 
 .btn.active,
