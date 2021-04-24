@@ -617,6 +617,7 @@ a[data-lightbox]:hover img {
 #lightbox-modal .modal-dialog img {
     max-height: 90vh;
     margin: 0 auto;
+    margin-bottom: 19px;
 }
 
 .lightbox-caption {
@@ -924,7 +925,6 @@ h4 {
 
 .bg-dots-bg {
     background-image: url("img/dots-bg.png");
-    background-color: #000;
 }
 
 .bg-lines-h2-bg {
@@ -933,6 +933,9 @@ h4 {
 
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpg");
+}
+
+.section-back{
     background-color: #000;
 }
 
