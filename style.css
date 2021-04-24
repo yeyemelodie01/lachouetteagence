@@ -933,6 +933,7 @@ h4 {
 
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-color: #000;
 }
 
 .bg-presentation {
