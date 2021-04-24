@@ -618,6 +618,9 @@ a[data-lightbox]:hover img {
     max-height: 90vh;
     margin: 0 auto;
     margin-bottom: 19px;
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
 }
 
 .lightbox-caption {
@@ -684,6 +687,7 @@ a[data-lightbox]:hover img {
     display: flex;
     justify-content: center;
 }
+
 
 h1,
 h2,
@@ -871,6 +875,10 @@ h4 {
     justify-content: space-between;
 }
 
+.row-space{
+    margin-bottom: 5px;
+}
+
 .container-padding{
     padding-top: 75px;
 }
@@ -902,6 +910,11 @@ h4 {
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
     color: #000 !important;
+}
+
+.section_center{
+    display: flex;
+    justify-content: center;
 }
 
 .ltc-white {
@@ -1189,6 +1202,13 @@ footer li{
     }
     .row-bottom{
         margin-bottom: 28px;
+    }
+    #lightbox-modal .modal-dialog img{
+        height: 200px;
+    }
+    .row-margin{
+        margin-right: 89px;
+        padding-left: 0;
     }
 }
 
