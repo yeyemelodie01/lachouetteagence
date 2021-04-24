@@ -681,6 +681,8 @@ a[data-lightbox]:hover img {
     padding: 0;
     color: rgba(0, 0, 0, .5);
     background: none;
+    display: flex;
+    justify-content: center;
 }
 
 h1,
