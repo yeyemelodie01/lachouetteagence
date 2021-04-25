@@ -1188,17 +1188,18 @@ footer li{
     }
     .row-flex{
         flex-direction: column;
-        margin: 0;
+        margin: 0 auto;
+        width: 320px;
     }
 
     .float{
         margin-bottom: 40px;
-        margin-right: 18px;
     }
 
     .d-flex{
-        width: 425px;
+        width: 320px;
         padding: 40px 14px;
+        margin: 0 auto;
     }
     .row-bottom{
         margin-bottom: 28px;
@@ -1207,7 +1208,6 @@ footer li{
         height: 200px;
     }
     .row-margin{
-        margin-right: 89px;
         padding-left: 0;
     }
 }
