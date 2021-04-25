@@ -804,6 +804,26 @@ h4 {
     display: flex;
     justify-content: center;
     width: 1070px;
+    margin: 0 auto;
+}
+
+.col_content{
+    padding-left: 0;
+    width: 320px;
+    margin: 0 auto;
+    color: #000;
+}
+
+.fa-marge{
+    margin-right: 7px;
+}
+
+.fa-marge2{
+    margin-right: 16px;
+}
+
+.fa-marge3{
+    margin-right: 10px;
 }
 
 .d-initial{
